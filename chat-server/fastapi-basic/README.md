@@ -16,3 +16,10 @@ uvicorn main:app --port 8000
 ```
 uvicorn main_extra:app --port 8000
 ```
+
+
+## Handling disconnections and multiple clients
+
+```
+uvicorn main_with_multiple_client:app --port 8000
+```
